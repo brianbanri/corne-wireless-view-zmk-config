@@ -112,7 +112,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
     &trans          &trans          &trans          &kp EQUAL       &kp AMPS        &kp TILDE           &trans          &kp UNDER       &kp ASTRK       &kp PIPE        &kp PLUS        &trans
-    &kp F11         &kp AT          &trans          &hm MINUS LSHFT &hm F2 CTRL     &kp GRAVE           &trans          &kp HOME        &kp PG_UP       &kp PG_DN       &kp END         &trans
+    &kp F11         &kp AT          &trans          &hm LSHFT MINUS &hm CTRL F2     &kp GRAVE           &trans          &kp HOME        &kp PG_UP       &kp PG_DN       &kp END         &trans
     &kp F5          &trans          &trans          &trans          &trans          &kp EXCL            &trans          &kp HASH        &trans          &kp CARET       &kp BSLH        &trans
                                                                      &trans    &trans   &trans               &trans     &trans   &trans
                         >;
