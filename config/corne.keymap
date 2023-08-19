@@ -97,7 +97,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &trans          &trans          &trans          &kp UP          &trans          &kp C_SLEEP         &trans          &kp C_AC_BACK   &kp C_AC_FORWARD l  &trans          &trans          &td1
+    &trans          &trans          &trans          &kp UP          &trans          &kp C_SLEEP         &trans          &kp C_AC_BACK   &kp C_AC_FORWARD &trans          &trans          &td1
     &kp CAPS        &kp LCTRL       &kp LEFT        &kp DOWN        &kp RIGHT       &trans              &trans          &kp RCTRL       &kp RSHFT       &kp RALT        &kp RGUI        &trans
     &trans          &kp BSPC        &kp DEL         &trans          &kp RC(PG_UP)   &kp RC(PG_DN)       &kp BSPC        &kp DEL         &trans          &trans          &trans          &trans
                                                                      &trans    &trans   &trans          &trans     &trans   &trans
