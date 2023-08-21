@@ -106,7 +106,7 @@
 
                 symbol_layer_2 {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// |  TAB |     |     |     |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
@@ -127,7 +127,7 @@
                         bindings = <
     &kp PAUSE_BREAK &kp C_MUTE      &kp C_PP        &med2           &med1           &trans              &kp C_AC_REDO   &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp PLUS        &kp MINUS
     &kp KP_NLCK     &kp LGUI        &kp LALT        &kp LSHFT       &kp LCTRL       &trans              &trans          &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp ASTRK       &kp FSLH
-    &trans          &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE  &trans              &kp BSPC        &kp KP_N1       &kp KP_N2       &kp KP_N3       &td2            &kp RET
+    &trans          &kp RC(Z)       &kp RC(X)       &kp RC(C)       &kp RC(V)       &trans              &kp BSPC        &kp KP_N1       &kp KP_N2       &kp KP_N3       &td2            &kp RET
                                                                      &trans    &trans   &trans               &kp SPACE  &kp KP_N0   &trans
                         >;
                 };
